@@ -1,0 +1,124 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family:sans-serif;
+}
+
+h2{
+  font-size:20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p{
+  font-size: 17px;
+  font-family: sans-serif;
+  text-align: center;
+}
+body{
+  background-color: grey;
+}
+
+header nav{
+  position: fixed;
+  background-color:white;
+  height:60px;
+  width:100%;
+  left:-0%;
+  top:.0%;
+  z-index: 2;
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+li{
+  display: inline;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  margin:2.5%;
+}
+header li a {
+  text-decoration: none;
+  color:black;
+}
+header li a:hover{
+  color:white;
+  background-color: black;
+}
+
+.margin {
+  width:70%;
+  background-color:white;
+  margin-left:15%;
+  margin-top:-20px;
+  padding-top: 10px;
+}
+
+.skille{
+  width:100%;
+  background-color:white;
+  padding-bottom:20px;
+  top:-20px;
+}
+h2 a{
+  text-decoration:underline;
+  color:black;
+}
+
+#Photos{
+}
+#Photos nav{
+}
+#Photos ul{
+}
+#Photos li{
+  Padding:5px;
+  float:left;
+  width:25%;
+}
+
+#Photos li img{
+  width:100%;
+  height:auto;
+  opacity: 0.5;
+}
+#Photos li img:hover{
+  opacity: 1;
+  transform: scale(0.99);
+  transition-duration: 0.5s;
+}
+
+#Photos li .Desc{
+  padding: 15px;
+  text-align: center;
+}
+#Videos a{
+  text-decoration: none;
+  color:black;
+}
+#Videos a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+Footer{
+  background-color: white;
+  height:60px;
+  position: absolute;
+  width:100%;
+  left:-0%;
+  padding-bottom: 6px;
+}
+Footer nav{
+}
+footer ul{
+  padding-top:10px;
+}
+Footer li{
+  font-size: 17px;
+}
+Footer a{
+  text-decoration: none;
+  color:black;
+}
