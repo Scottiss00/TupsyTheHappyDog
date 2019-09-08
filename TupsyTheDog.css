@@ -124,3 +124,31 @@ Footer a{
   text-decoration: none;
   color:black;
 }
+
+@media only screen and (max-width: 980px){
+  body{
+    margin:0%;
+  }
+  .margin {
+    width:100%;
+    background-color:white;
+    margin:-0%;
+  }
+
+  h1{
+    font-size: 30px;
+    text-align: center;
+    font-family:sans-serif;
+  }
+  h2{
+    font-size:17px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  p{
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+}
