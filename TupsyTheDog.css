@@ -53,13 +53,15 @@ header li a:hover{
   margin-left:15%;
   margin-top:-20px;
   padding-top: 10px;
+  padding-bottom:50px;
 }
 
 .skille{
   width:100%;
   background-color:white;
-  padding-bottom:20px;
+  padding-bottom:5px;
   top:-20px;
+  margin-top:-35px;
 }
 h2 a{
   text-decoration:underline;
