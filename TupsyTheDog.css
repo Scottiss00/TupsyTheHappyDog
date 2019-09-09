@@ -151,4 +151,32 @@ Footer a{
     font-family: sans-serif;
     text-align: center;
   }
+
+  #Photos{
+  }
+  #Photos nav{
+
+  }
+  #Photos ul{
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    float:center;
+    width:100%;
+    margin-left:-10%;
+  }
+  #Photos li{
+    float:center;
+    width:100%;
+  }
+
+  #Photos li img{
+    width:100%;
+    height:auto;
+  }
+
+  #Photos li .Desc{
+    padding: 15px;
+    text-align: center;
+  }
 }
