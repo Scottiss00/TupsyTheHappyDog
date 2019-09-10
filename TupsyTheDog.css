@@ -19,7 +19,22 @@ p a{
   color:black;
 }
 body{
+  margin:0;
   background-color: grey;
+}
+
+.ParallaxPhoto{
+  /* The image used */
+  background-image: url("dust.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header nav{
